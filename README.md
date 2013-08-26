@@ -1,3 +1,3 @@
 == README
 
-Ruby on rails tutorial - 
+Ruby on rails tutorial - hope this tutorial works!
