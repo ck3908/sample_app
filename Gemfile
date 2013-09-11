@@ -7,6 +7,11 @@ gem 'bootstrap-sass'
 
 gem 'bcrypt-ruby', '3.0.1'
 
+gem 'will_paginate'
+
+gem 'bootstrap-will_paginate'
+
+
 #gem 'protected_attributes'
 
 # Use sqlite3 as the database for Active Record
