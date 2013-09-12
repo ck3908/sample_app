@@ -20,6 +20,15 @@ module SessionsHelper
       user == current_user
     end
 
+    # cut and past signed_in_user from users_controller to make it 
+    # available to both user controller and micropost controller
+    def signed_in_user
+      unless signed_in?
+        store_location
+        redirect_to signin_url, notice: "Please sign in."
+      end
+    end
+
   	def signed_in?
     	!current_user.nil?
  	  end
